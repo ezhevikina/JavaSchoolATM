@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS accounts (
+    id INT NOT NULL,
+    holder VARCHAR(50) NOT NULL,
+    amount INT NOT NULL DEFAULT 0
+);
